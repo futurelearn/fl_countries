@@ -1,0 +1,254 @@
+uk:
+  "GB": United Kingdom
+  "JE": Jersey
+europe:
+  "AL": Albania
+  "AD": Andorra
+  "AM": Armenia
+  "AT": Austria
+  "AZ": Azerbaijan
+  "BY": Belarus
+  "BE": Belgium
+  "BA": Bosnia and Herzegovina
+  "BG": Bulgaria
+  "HR": Croatia
+  "CY": Cyprus
+  "CZ": Czech Republic
+  "DK": Denmark
+  "EE": Estonia
+  "FO": Faroe Islands
+  "FI": Finland
+  "FR": France
+  "GE": Georgia
+  "DE": Germany
+  "GI": Gibraltar
+  "GR": Greece
+  "GL": Greenland
+  "HU": Hungary
+  "IS": Iceland
+  "IE": Ireland
+  "IT": Italy
+  "KZ": Kazakhstan
+  "XK": Kosovo
+  "KG": Kyrgyzstan
+  "LV": Latvia
+  "LI": Liechtenstein
+  "LT": Lithuania
+  "LU": Luxembourg
+  "MK": Macedonia
+  "MT": Malta
+  "MD": Moldova
+  "MC": Monaco
+  "ME": Montenegro
+  "NL": Netherlands
+  "NO": Norway
+  "PL": Poland
+  "PT": Portugal
+  "RO": Romania
+  "RU": Russia
+  "SM": San Marino
+  "RS": Serbia
+  "SK": Slovakia
+  "SI": Slovenia
+  "ES": Spain
+  "SJ": Svalbard and Jan Mayen
+  "SE": Sweden
+  "CH": Switzerland
+  "TJ": Tajikistan
+  "TR": Turkey
+  "TM": Turkmenistan
+  "UA": Ukraine
+  "UZ": Uzbekistan
+  "VA": Vatican City
+world:
+  "AE": United Arab Emirates
+  "AF": Afghanistan
+  "AG": Antigua and Barbuda
+  "AI": Anguilla
+  "AN": Netherlands Antilles
+  "AO": Angola
+  "AQ": Antarctica
+  "AR": Argentina
+  "AS": American Samoa
+  "AU": Australia
+  "AW": Aruba
+  "AX": Åland Islands
+  "BB": Barbados
+  "BD": Bangladesh
+  "BF": Burkina Faso
+  "BH": Bahrain
+  "BI": Burundi
+  "BJ": Benin
+  "BL": Saint Barthélemy
+  "BM": Bermuda
+  "BN": Brunei
+  "BO": Bolivia
+  "BQ": Bonaire, Sint Eustatius and Saba
+  "BR": Brazil
+  "BS": Bahamas
+  "BT": Bhutan
+  "BV": Bouvet Island
+  "BW": Botswana
+  "BZ": Belize
+  "CA": Canada
+  "CC": Cocos (Keeling) Islands
+  "CD": Congo (Dem. Rep.)
+  "CF": Central African Republic
+  "CG": Congo
+  "CI": Côte D'Ivoire
+  "CK": Cook Islands
+  "CL": Chile
+  "CM": Cameroon
+  "CN": China
+  "CO": Colombia
+  "CR": Costa Rica
+  "CU": Cuba
+  "CV": Cape Verde
+  "CW": Curaçao
+  "CX": Christmas Island
+  "DJ": Djibouti
+  "DM": Dominica
+  "DO": Dominican Republic
+  "DZ": Algeria
+  "EC": Ecuador
+  "EG": Egypt
+  "EH": Western Sahara
+  "ER": Eritrea
+  "ET": Ethiopia
+  "FJ": Fiji
+  "FK": Falkland Islands
+  "FM": Micronesia
+  "GA": Gabon
+  "GD": Grenada
+  "GF": French Guiana
+  "GG": Guernsey and Alderney
+  "GH": Ghana
+  "GM": Gambia
+  "GN": Guinea
+  "GP": Guadeloupe
+  "GQ": Equatorial Guinea
+  "GS": South Georgia and the South Sandwich Islands
+  "GT": Guatemala
+  "GU": Guam
+  "GW": Guinea-Bissau
+  "GY": Guyana
+  "HK": Hong Kong
+  "HM": Heard and McDonald Islands
+  "HN": Honduras
+  "HT": Haiti
+  "ID": Indonesia
+  "IL": Israel
+  "IM": Isle of Man
+  "IN": India
+  "IO": British Indian Ocean Territory
+  "IQ": Iraq
+  "IR": Iran
+  "JM": Jamaica
+  "JO": Jordan
+  "JP": Japan
+  "KE": Kenya
+  "KH": Cambodia
+  "KI": Kiribati
+  "KM": Comoros
+  "KN": Saint Kitts and Nevis
+  "KP": Korea (North)
+  "KR": Korea (South)
+  "KW": Kuwait
+  "KY": Cayman Islands
+  "LA": Laos
+  "LB": Lebanon
+  "LC": Saint Lucia
+  "LK": Sri Lanka
+  "LR": Liberia
+  "LS": Lesotho
+  "LY": Libya
+  "MA": Morocco
+  "MF": Saint Martin
+  "MG": Madagascar
+  "MH": Marshall Islands
+  "ML": Mali
+  "MM": Myanmar
+  "MN": Mongolia
+  "MO": Macao
+  "MP": Northern Mariana Islands
+  "MQ": Martinique
+  "MR": Mauritania
+  "MS": Montserrat
+  "MU": Mauritius
+  "MV": Maldives
+  "MW": Malawi
+  "MX": Mexico
+  "MY": Malaysia
+  "MZ": Mozambique
+  "NA": Namibia
+  "NC": New Caledonia
+  "NE": Niger
+  "NF": Norfolk Island
+  "NG": Nigeria
+  "NI": Nicaragua
+  "NP": Nepal
+  "NR": Nauru
+  "NU": Niue
+  "NZ": New Zealand
+  "OM": Oman
+  "PA": Panama
+  "PE": Peru
+  "PF": French Polynesia
+  "PG": Papua New Guinea
+  "PH": Philippines
+  "PK": Pakistan
+  "PM": Saint Pierre and Miquelon
+  "PN": Pitcairn
+  "PR": Puerto Rico
+  "PS": Palestine
+  "PW": Palau
+  "PY": Paraguay
+  "QA": Qatar
+  "RE": Réunion
+  "RW": Rwanda
+  "SA": Saudi Arabia
+  "SB": Solomon Islands
+  "SC": Seychelles
+  "SD": Sudan
+  "SG": Singapore
+  "SH": Saint Helena
+  "SL": Sierra Leone
+  "SN": Senegal
+  "SO": Somalia
+  "SR": Suriname
+  "SS": South Sudan
+  "ST": São Tomé and Príncipe
+  "SV": El Salvador
+  "SX": Sint Maarten
+  "SY": Syria
+  "SZ": Swaziland
+  "TC": Turks and Caicos Islands
+  "TD": Chad
+  "TF": French Southern Territories
+  "TG": Togo
+  "TH": Thailand
+  "TK": Tokelau
+  "TL": East Timor
+  "TN": Tunisia
+  "TO": Tonga
+  "TT": Trinidad and Tobago
+  "TV": Tuvalu
+  "TW": Taiwan
+  "TZ": Tanzania
+  "UG": Uganda
+  "UM": United States Minor Outlying Islands
+  "US": United States of America
+  "UY": Uruguay
+  "VC": Saint Vincent and the Grenadines
+  "VE": Venezuela
+  "VG": British Virgin Islands
+  "VI": Virgin Islands of the United States
+  "VN": Vietnam
+  "VU": Vanuatu
+  "WF": Wallis and Futuna
+  "WS": Samoa
+  "YE": Yemen
+  "YT": Mayotte
+  "ZA": South Africa
+  "ZM": Zambia
+  "ZW": Zimbabwe
