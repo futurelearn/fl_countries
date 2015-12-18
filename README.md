@@ -1,8 +1,16 @@
 # FlCountries
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fl_countries`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem provides the canonical list of FutureLearn countries to be used
+whenever country data is required. It provides a Country class that contains
+finder methods to instantiate country objects.
 
-TODO: Delete this and the text above, and describe your gem
+The list of countries is the ISO-3166 country list with the addition of Kosovo.
+
+If you need to store a country reference in a database, it is best to use the
+country code (which is the ISO-3166 alpha2 code) as a reference. This is because
+these codes are less likely to change than the name of a country. For example,
+if we ever need to translate country names, code that refers to names may
+produce inconsistent results.
 
 ## Installation
 
@@ -20,17 +28,8 @@ Or install it yourself as:
 
     $ gem install fl_countries
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fl_countries.
-
+To install this gem onto your local machine, run `bundle exec rake install`.
