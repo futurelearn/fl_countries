@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Country do
+describe FutureLearn::Country do
   describe '.all' do
     let(:countries) { described_class.all }
 
@@ -54,8 +54,8 @@ describe Country do
   end
 
   describe 'sorting' do
-    let(:a) { Country.new('DE', 'Germany', 'europe') }
-    let(:b) { Country.new('GB', 'United Kingdom', 'uk') }
+    let(:a) { described_class.new('DE', 'Germany', 'europe') }
+    let(:b) { described_class.new('GB', 'United Kingdom', 'uk') }
 
     it 'sorts countries alphabetically by name' do
       expect([b, a].sort).to eq([a, b])
@@ -63,9 +63,9 @@ describe Country do
   end
 
   describe 'equality' do
-    let(:de1) { Country.new('DE', 'Germany', 'europe') }
+    let(:de1) { described_class.new('DE', 'Germany', 'europe') }
     let(:de2) { de1.dup }
-    let(:gb) { Country.new('GB', 'United Kingdom', 'uk') }
+    let(:gb) { described_class.new('GB', 'United Kingdom', 'uk') }
 
     describe '==' do
       it 'matches if the code is the same' do
