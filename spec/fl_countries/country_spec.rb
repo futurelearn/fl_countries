@@ -16,13 +16,17 @@ describe FutureLearn::Country do
       expect(described_class.find_by_code('GB').name).to eq('United Kingdom')
     end
 
+    it 'knows about the alpha3 code' do
+      expect(described_class.find_by_code('GB').alpha3).to eq("GBR")
+    end
+
     it 'returns nil if the country is not found' do
       expect(described_class.find_by_code('OMG')).to eq(nil)
     end
   end
 
-  describe 'find_by_code' do
-    it 'finds a country by its code' do
+  describe 'find_by_name' do
+    it 'finds a country by its name' do
       expect(described_class.find_by_name('United Kingdom').code).to eq('GB')
     end
 
@@ -34,6 +38,10 @@ describe FutureLearn::Country do
   describe 'differences from ISO-3166' do
     it 'contains Kosovo even though it is not in the ISO 3166 country list' do
       expect(described_class.find_by_code('XK').name).to eq('Kosovo')
+    end
+
+    it 'knows the alpha-3 code for Kosovo even though it is not in the list' do
+      expect(described_class.find_by_code('XK').alpha3).to eq('XKO')
     end
   end
 
@@ -54,8 +62,8 @@ describe FutureLearn::Country do
   end
 
   describe 'sorting' do
-    let(:a) { described_class.new('DE', 'Germany', 'europe') }
-    let(:b) { described_class.new('GB', 'United Kingdom', 'uk') }
+    let(:a) { described_class.new('DE', 'Germany', 'europe', 'DEU') }
+    let(:b) { described_class.new('GB', 'United Kingdom', 'uk', 'GBR') }
 
     it 'sorts countries alphabetically by name' do
       expect([b, a].sort).to eq([a, b])
@@ -63,9 +71,9 @@ describe FutureLearn::Country do
   end
 
   describe 'equality' do
-    let(:de1) { described_class.new('DE', 'Germany', 'europe') }
+    let(:de1) { described_class.new('DE', 'Germany', 'europe', 'DEU') }
     let(:de2) { de1.dup }
-    let(:gb) { described_class.new('GB', 'United Kingdom', 'uk') }
+    let(:gb) { described_class.new('GB', 'United Kingdom', 'uk', 'GBR') }
 
     describe '==' do
       it 'matches if the code is the same' do
